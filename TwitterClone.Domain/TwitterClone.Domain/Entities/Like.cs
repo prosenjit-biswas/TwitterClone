@@ -1,6 +1,6 @@
 ﻿namespace TwitterClone.Domain.Entities
 {
-    internal class Like
+    public class Like
     {
         private Guid _userId;
         private Guid _tweetId;
