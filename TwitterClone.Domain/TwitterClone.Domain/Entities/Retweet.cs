@@ -10,8 +10,6 @@
         public Retweet()
         {
             _id = Guid.NewGuid();
-            _userId = Guid.NewGuid();
-            _tweetId = Guid.NewGuid();
             _retweetedAt = DateTime.UtcNow;
         }
 
